@@ -1,0 +1,2 @@
+
+FD31.component("EasyBlog", {"environment":"static","source":"local","mode":"compressed","baseUrl":"http:\/\/10.0.0.101\/works\/purity_iii\/index.php?option=com_easyblog&lang=none&Itemid=634","version":"3.9.15155","scriptVersioning":true,"responsive":true});
