@@ -49,7 +49,7 @@ class JConfig {
 	public $offset_user = 'UTC';
 	public $robots = '';
 	public $secret = 'ZTwXxvCmZyvpS3DyJucXhCpB8qFh44wJ';
-	public $sef = '1';
+	public $sef = '0';
 	public $sef_rewrite = '1';
 	public $sef_suffix = '0';
 	public $sendmail = '/usr/sbin/sendmail';
