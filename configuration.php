@@ -13,7 +13,6 @@ class JConfig {
 	public $captcha = '0';
 	public $cookie_domain = '';
 	public $cookie_path = '';
-	public $db = getenv('MYSQL_DATABASE');
 	public $dbprefix = 'ej30_';
 	public $dbtype = 'mysqli';
 	public $debug = '0';
@@ -33,7 +32,6 @@ class JConfig {
 	public $ftp_user = '';
 	public $gzip = '1';
 	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
-	public $host = getenv('MYSQL_SERVICE_HOST');
 	public $lifetime = '60';
 	public $list_limit = '50';
 	public $live_site = 'http://www.openredmine.com';
@@ -49,7 +47,6 @@ class JConfig {
 	public $offline_message = 'This site is being upgraded... Please try again after few minutes.';
 	public $offset = 'Europe/Prague';
 	public $offset_user = 'UTC';
-	public $password = getenv('MYSQL_PASSWORD');
 	public $robots = '';
 	public $secret = 'ZTwXxvCmZyvpS3DyJucXhCpB8qFh44wJ';
 	public $sef = '1';
@@ -67,7 +64,6 @@ class JConfig {
 	public $smtpuser = 'support@easyredmine.com';
 	public $tmp_path = '/home/easyredmine.com/public_html/tmp';
 	public $unicodeslugs = '0';
-	public $user = getenv('MYSQL_USER');
 	public $memcached_persist = '1';
 	public $memcached_compress = '0';
 	public $memcached_server_host = 'localhost';
@@ -90,4 +86,11 @@ class JConfig {
 	public $redis_server_auth = '';
 	public $redis_server_db = '0';
 	public $massmailoff = '0';
+
+    public function __construct() {
+        $this->host = getenv("MYSQL_SERVICE_HOST");
+        $this->user = getenv("MYSQL_USER");
+        $this->password = getenv("MYSQL_PASSWORD");
+        $this->db = getenv("MYSQL_DATABASE");
+    }
 }
