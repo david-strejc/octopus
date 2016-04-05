@@ -13,7 +13,7 @@ class JConfig {
 	public $captcha = '0';
 	public $cookie_domain = '';
 	public $cookie_path = '';
-	public $dbprefix = 'ej30_';
+	public $dbprefix = 'octt_';
 	public $dbtype = 'mysqli';
 	public $debug = '0';
 	public $debug_lang = '0';
