@@ -1,8 +1,8 @@
 <?php
 class JConfig {
 	public $MetaAuthor = '0';
-	public $MetaDesc = 'Easy Redmine makes Redmine the best project management software. Learn more!';
-	public $MetaKeys = 'redmine, plugins, solutions, services, easy, project, management';
+	public $MetaDesc = 'Open Source systems';
+	public $MetaKeys = 'open, source, github, solutions, services';
 	public $MetaRights = '';
 	public $MetaTitle = '1';
 	public $MetaVersion = '0';
@@ -23,7 +23,7 @@ class JConfig {
 	public $feed_email = 'author';
 	public $feed_limit = '50';
 	public $force_ssl = '0';
-	public $fromname = 'EasyRedmine.com';
+	public $fromname = 'octospussystems.cz';
 	public $ftp_enable = '0';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_pass = '';
@@ -34,10 +34,10 @@ class JConfig {
 	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $lifetime = '60';
 	public $list_limit = '50';
-	public $live_site = 'http://www.openredmine.com';
-	public $log_path = '/home/easyredmine.com/public_html/logs';
+	public $live_site = '';
+	public $log_path = '/home/app-root/logs';
 	public $mailer = 'mail';
-	public $mailfrom = 'info@easyredmine.com';
+	public $mailfrom = 'octopus@octopussystems.cz';
 	public $memcache_compress = '0';
 	public $memcache_persist = '1';
 	public $memcache_server_host = 'localhost';
@@ -62,7 +62,7 @@ class JConfig {
 	public $smtpport = '25';
 	public $smtpsecure = 'none';
 	public $smtpuser = 'support@easyredmine.com';
-	public $tmp_path = '/home/easyredmine.com/public_html/tmp';
+	public $tmp_path = '/home/app-root/tmp';
 	public $unicodeslugs = '0';
 	public $memcached_persist = '1';
 	public $memcached_compress = '0';
